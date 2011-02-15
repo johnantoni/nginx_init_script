@@ -1,7 +1,7 @@
 # nginx install with passenger + startup script
 
 # install
-sudo passenger-install-nginx
+passenger-install-nginx-module
 
 # inject script
 sudo chmod +x init.d
