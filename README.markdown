@@ -4,6 +4,12 @@ script to install nginx on Fedora via the passenger ruby gem,
 after which it will copy the script init.d into /etc/init.d
 to autostart nginx on boot.
 
+## pre-requisites
+
+    gem install passenger
+
+## run
+
     sh install.sh
 
 ## commands
